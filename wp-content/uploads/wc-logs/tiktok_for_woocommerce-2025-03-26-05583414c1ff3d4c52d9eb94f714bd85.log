@@ -1,0 +1,30 @@
+2025-03-26T08:04:52+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_67e3b524463d2httpnikitinhesteduwp-admin","smb_name":"PROD","redirect_url":"http:\/\/nikitin.hest.edu\/wp-admin\/"}
+ ajax: no
+2025-03-26T08:04:53+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20250326080451D18F9B42B83949142C9B,20250326080451D18F9B42B83949142C9B
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 01a1b16ed9bb821554f7a740b9f36a1f64d23de575e0fe4311bf4459f4859ebe5a22772f2154e8604bb9dacc94985777bdb2ad45f5a5786071664639282eb3a283aeb581e93eddbc649b615f31c8949831d3c8a4498fe05597489cb7fd9caec284ca2e88809e8b880cde90863614097b94
+x-tt-trace-id: 00-250326080451D18F9B42B83949142C9B-748C67151BAD5BA3-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 204
+X-Origin-Response-Time: 103,23.193.164.205
+X-Akamai-Request-ID: 513f1b4.52daebe
+Date: Wed, 26 Mar 2025 08:04:53 GMT
+X-Cache: TCP_MISS from a92-123-189-68.deploy.akamaitechnologies.com (AkamaiGHost/22.0.0.1-318443691900e5d3d78f5dd48f596007) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-193-164-205.deploy.akamaitechnologies.com (AkamaiGHost/22.0.0.1-318443691900e5d3d78f5dd48f596007) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=188, origin; dur=103
+Server-Timing: inner; dur=98
+X-Parent-Response-Time: 287,92.123.189.68
+
+{"code":0,"msg":"ok","data":{"app_secret":"ac125af9d52a3a1a93a3653a82b1c46dec2704c0","redirect_uri":"http:\/\/nikitin.hest.edu\/wp-admin\/","external_data_key":"eb57c48f-4c1b-4330-bc78-fefef6078d38","app_id":"7486026175505137665"}}
+2025-03-26T08:40:21+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-03-26T08:40:21+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
